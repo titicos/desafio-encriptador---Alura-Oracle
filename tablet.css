@@ -1,0 +1,39 @@
+@media (max-width: 768px){
+
+    main{
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+
+    .posicao_botoes{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    header{
+       display: block;
+       height: 200px;
+     
+    }
+    .entrada{
+        width: 80%;
+        margin: auto;
+        padding: 30px 0px;
+    }
+
+    .botoes{
+        width: 100%;
+    }
+    #entradatexto{
+        width: 100%;
+        margin: 20px 0px;
+    }
+
+    .saida{
+        bottom:200px;
+        background-color: red;
+    }
+
+}

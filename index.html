@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="tablet.css">
+</head>
+<body>
+
+    <header>
+        <img src="/imagem/logo.png" alt="logo" class="logo">
+    </header>
+
+ <main>
+
+    <div class="entrada">
+     <input type="text" placeholder="digite o seu texto" id="entradatexto">
+
+     <div class="botoes">
+        <h3>*apenas letras minúsculas e sem acentos</h3>
+       <div class="posicao_botoes">
+        <button onclick="encriptar()">encriptar</button>
+
+        <button onclick="descriptar()">descriptar</button>
+       </div>
+        
+     </div>
+    </div>
+
+
+    <div class="saida">
+       <div>
+        <img src="/imagem/High quality products 1 1.png" alt="" id="imagem">
+       </div>
+       <div id="title">
+         <h2 class="output">Nenhuma mensagem encontrada</h2>
+         <p class="output">Digite um texto que você deseja
+            criptografar ou descriptografar.</p>
+       </div>
+       <h2 id="saidaTexto"></h2>
+    </div>
+ </main>
+
+
+   
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
